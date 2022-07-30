@@ -15,8 +15,8 @@ if rezept == 2:
 if rezept == 3:
     print("Du hast das Rezept für Käsekuchen gewählt.")
 
-# else:
-#     print("Fehlerhafte Eingabe. Bitte erneut versuchen." + os.execl(sys.executable, os.path.abspath(__file__), *sys.argv))
+else:
+    print("Fehlerhafte Eingabe. Bitte erneut versuchen." + os.execl(sys.executable, os.path.abspath(__file__), *sys.argv))
 
 if rezept == 1:
     for pfannkuchen in ["\nDu benötigst:\n \n"
