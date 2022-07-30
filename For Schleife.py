@@ -14,7 +14,6 @@ if rezept == 2:
     print("Du hast das Rezept für Waffeln gewählt.")
 if rezept == 3:
     print("Du hast das Rezept für Käsekuchen gewählt.")
-
 else:
     print("Fehlerhafte Eingabe. Bitte erneut versuchen." + os.execl(sys.executable, os.path.abspath(__file__), *sys.argv))
 
@@ -46,5 +45,5 @@ if rezept == 3:
           "75 g Zucker,\n"
           "75 g Margarine,\n"
           "200 g Mehl, \n"
-          "1/2 Päkchen Backpulver"]:
+          "1/2 Päckchen Backpulver"]:
         print(käsekuchen)
