@@ -10,9 +10,9 @@ rezept = int(input("[1] Pfannkuchen\n"
 
 if rezept == int(1):
     print("Du hast das Rezept für Pfannkuchen gewählt.")
-if rezept == int(2):
+elif rezept == int(2):
     print("Du hast das Rezept für Waffeln gewählt.")
-if rezept == int(3):
+elif rezept == int(3):
     print("Du hast das Rezept für Käsekuchen gewählt.")
 
 # else:
